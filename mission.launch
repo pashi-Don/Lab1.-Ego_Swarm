@@ -1,5 +1,0 @@
-<launch>
-    <node pkg="lab_dontsov" type="mission" name="mission_node" output="screen">
-        <rosparam command="load" file="$(find lab_dontsov)/config/coordinates.yaml" />
-    </node>
-</launch>
